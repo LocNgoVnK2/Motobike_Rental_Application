@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MotoBikeRentalDataSet" targetNamespace="http://tempuri.org/MotoBikeRentalDataSet.xsd" xmlns:mstns="http://tempuri.org/MotoBikeRentalDataSet.xsd" xmlns="http://tempuri.org/MotoBikeRentalDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MotoBikeRentalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MotoBikeRentalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QuanLyThueXeMay.Properties.Settings.GlobalReference.Default.MotoBikeRentalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BillShowTableAdapter" GeneratorDataComponentClassName="BillShowTableAdapter" Name="BillShow" UserDataComponentName="BillShowTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MotoBikeRentalConnectionString (Settings)" DbObjectName="MotoBikeRental.dbo.BillShow" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MaHoaDon, NgayLap, TenKhachHang, NgayThue, NgayTra, TenXe, DonGia, NVLapPhieu, TongTien FROM dbo.BillShow</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaHoaDon" DataSetColumn="MaHoaDon" />
+              <Mapping SourceColumn="NgayLap" DataSetColumn="NgayLap" />
+              <Mapping SourceColumn="TenKhachHang" DataSetColumn="TenKhachHang" />
+              <Mapping SourceColumn="NgayThue" DataSetColumn="NgayThue" />
+              <Mapping SourceColumn="NgayTra" DataSetColumn="NgayTra" />
+              <Mapping SourceColumn="TenXe" DataSetColumn="TenXe" />
+              <Mapping SourceColumn="DonGia" DataSetColumn="DonGia" />
+              <Mapping SourceColumn="NVLapPhieu" DataSetColumn="NVLapPhieu" />
+              <Mapping SourceColumn="TongTien" DataSetColumn="TongTien" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BillShow1TableAdapter" GeneratorDataComponentClassName="BillShow1TableAdapter" Name="BillShow1" UserDataComponentName="BillShow1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MotoBikeRentalConnectionString (Settings)" DbObjectName="MotoBikeRental.dbo.BillShow" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT *
+FROM [MotoBikeRental].[dbo].[BillShow]
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MaHoaDon" DataSetColumn="MaHoaDon" />
+              <Mapping SourceColumn="NgayLap" DataSetColumn="NgayLap" />
+              <Mapping SourceColumn="TenKhachHang" DataSetColumn="TenKhachHang" />
+              <Mapping SourceColumn="NgayThue" DataSetColumn="NgayThue" />
+              <Mapping SourceColumn="NgayTra" DataSetColumn="NgayTra" />
+              <Mapping SourceColumn="TenXe" DataSetColumn="TenXe" />
+              <Mapping SourceColumn="DonGia" DataSetColumn="DonGia" />
+              <Mapping SourceColumn="NVLapPhieu" DataSetColumn="NVLapPhieu" />
+              <Mapping SourceColumn="TongTien" DataSetColumn="TongTien" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MotoBikeRentalDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MotoBikeRentalDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="MotoBikeRentalDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BillShow" msprop:Generator_RowClassName="BillShowRow" msprop:Generator_RowEvHandlerName="BillShowRowChangeEventHandler" msprop:Generator_RowDeletedName="BillShowRowDeleted" msprop:Generator_RowDeletingName="BillShowRowDeleting" msprop:Generator_RowEvArgName="BillShowRowChangeEvent" msprop:Generator_TablePropName="BillShow" msprop:Generator_RowChangedName="BillShowRowChanged" msprop:Generator_UserTableName="BillShow" msprop:Generator_RowChangingName="BillShowRowChanging" msprop:Generator_TableClassName="BillShowDataTable" msprop:Generator_TableVarName="tableBillShow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaHoaDon" msprop:Generator_UserColumnName="MaHoaDon" msprop:Generator_ColumnPropNameInTable="MaHoaDonColumn" msprop:Generator_ColumnPropNameInRow="MaHoaDon" msprop:Generator_ColumnVarNameInTable="columnMaHoaDon" type="xs:int" />
+              <xs:element name="NgayLap" msprop:Generator_UserColumnName="NgayLap" msprop:Generator_ColumnPropNameInTable="NgayLapColumn" msprop:Generator_ColumnPropNameInRow="NgayLap" msprop:Generator_ColumnVarNameInTable="columnNgayLap" type="xs:dateTime" />
+              <xs:element name="TenKhachHang" msprop:Generator_UserColumnName="TenKhachHang" msprop:Generator_ColumnPropNameInTable="TenKhachHangColumn" msprop:Generator_ColumnPropNameInRow="TenKhachHang" msprop:Generator_ColumnVarNameInTable="columnTenKhachHang">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NgayThue" msprop:Generator_UserColumnName="NgayThue" msprop:Generator_ColumnPropNameInTable="NgayThueColumn" msprop:Generator_ColumnPropNameInRow="NgayThue" msprop:Generator_ColumnVarNameInTable="columnNgayThue" type="xs:dateTime" />
+              <xs:element name="NgayTra" msprop:Generator_UserColumnName="NgayTra" msprop:Generator_ColumnPropNameInTable="NgayTraColumn" msprop:Generator_ColumnPropNameInRow="NgayTra" msprop:Generator_ColumnVarNameInTable="columnNgayTra" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TenXe" msprop:Generator_UserColumnName="TenXe" msprop:Generator_ColumnPropNameInTable="TenXeColumn" msprop:Generator_ColumnPropNameInRow="TenXe" msprop:Generator_ColumnVarNameInTable="columnTenXe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DonGia" msprop:Generator_UserColumnName="DonGia" msprop:Generator_ColumnPropNameInTable="DonGiaColumn" msprop:Generator_ColumnPropNameInRow="DonGia" msprop:Generator_ColumnVarNameInTable="columnDonGia" type="xs:int" />
+              <xs:element name="NVLapPhieu" msprop:Generator_UserColumnName="NVLapPhieu" msprop:Generator_ColumnPropNameInTable="NVLapPhieuColumn" msprop:Generator_ColumnPropNameInRow="NVLapPhieu" msprop:Generator_ColumnVarNameInTable="columnNVLapPhieu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TongTien" msprop:Generator_UserColumnName="TongTien" msprop:Generator_ColumnPropNameInTable="TongTienColumn" msprop:Generator_ColumnPropNameInRow="TongTien" msprop:Generator_ColumnVarNameInTable="columnTongTien" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BillShow1" msprop:Generator_RowEvHandlerName="BillShow1RowChangeEventHandler" msprop:Generator_RowDeletedName="BillShow1RowDeleted" msprop:Generator_RowDeletingName="BillShow1RowDeleting" msprop:Generator_RowEvArgName="BillShow1RowChangeEvent" msprop:Generator_TablePropName="BillShow1" msprop:Generator_RowChangedName="BillShow1RowChanged" msprop:Generator_RowChangingName="BillShow1RowChanging" msprop:Generator_TableClassName="BillShow1DataTable" msprop:Generator_RowClassName="BillShow1Row" msprop:Generator_TableVarName="tableBillShow1" msprop:Generator_UserTableName="BillShow1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaHoaDon" msprop:Generator_ColumnPropNameInRow="MaHoaDon" msprop:Generator_ColumnPropNameInTable="MaHoaDonColumn" msprop:Generator_ColumnVarNameInTable="columnMaHoaDon" msprop:Generator_UserColumnName="MaHoaDon" type="xs:int" />
+              <xs:element name="NgayLap" msprop:Generator_ColumnPropNameInRow="NgayLap" msprop:Generator_ColumnPropNameInTable="NgayLapColumn" msprop:Generator_ColumnVarNameInTable="columnNgayLap" msprop:Generator_UserColumnName="NgayLap" type="xs:dateTime" />
+              <xs:element name="TenKhachHang" msprop:Generator_ColumnPropNameInRow="TenKhachHang" msprop:Generator_ColumnPropNameInTable="TenKhachHangColumn" msprop:Generator_ColumnVarNameInTable="columnTenKhachHang" msprop:Generator_UserColumnName="TenKhachHang">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NgayThue" msprop:Generator_ColumnPropNameInRow="NgayThue" msprop:Generator_ColumnPropNameInTable="NgayThueColumn" msprop:Generator_ColumnVarNameInTable="columnNgayThue" msprop:Generator_UserColumnName="NgayThue" type="xs:dateTime" />
+              <xs:element name="NgayTra" msprop:Generator_ColumnPropNameInRow="NgayTra" msprop:Generator_ColumnPropNameInTable="NgayTraColumn" msprop:Generator_ColumnVarNameInTable="columnNgayTra" msprop:Generator_UserColumnName="NgayTra" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TenXe" msprop:Generator_ColumnPropNameInRow="TenXe" msprop:Generator_ColumnPropNameInTable="TenXeColumn" msprop:Generator_ColumnVarNameInTable="columnTenXe" msprop:Generator_UserColumnName="TenXe">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DonGia" msprop:Generator_ColumnPropNameInRow="DonGia" msprop:Generator_ColumnPropNameInTable="DonGiaColumn" msprop:Generator_ColumnVarNameInTable="columnDonGia" msprop:Generator_UserColumnName="DonGia" type="xs:int" />
+              <xs:element name="NVLapPhieu" msprop:Generator_ColumnPropNameInRow="NVLapPhieu" msprop:Generator_ColumnPropNameInTable="NVLapPhieuColumn" msprop:Generator_ColumnVarNameInTable="columnNVLapPhieu" msprop:Generator_UserColumnName="NVLapPhieu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TongTien" msprop:Generator_ColumnPropNameInRow="TongTien" msprop:Generator_ColumnPropNameInTable="TongTienColumn" msprop:Generator_ColumnVarNameInTable="columnTongTien" msprop:Generator_UserColumnName="TongTien" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BillShow" />
+      <xs:field xpath="mstns:MaHoaDon" />
+    </xs:unique>
+    <xs:unique name="BillShow1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BillShow1" />
+      <xs:field xpath="mstns:MaHoaDon" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+D:\.netSave\QuanLyThueXeMay\BUS\bin\Debug\BUS.dll
+D:\.netSave\QuanLyThueXeMay\BUS\bin\Debug\BUS.pdb
+D:\.netSave\QuanLyThueXeMay\BUS\bin\Debug\DAO.dll
+D:\.netSave\QuanLyThueXeMay\BUS\bin\Debug\DTO.dll
+D:\.netSave\QuanLyThueXeMay\BUS\bin\Debug\DAO.pdb
+D:\.netSave\QuanLyThueXeMay\BUS\bin\Debug\DTO.pdb
+D:\.netSave\QuanLyThueXeMay\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\.netSave\QuanLyThueXeMay\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\.netSave\QuanLyThueXeMay\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\.netSave\QuanLyThueXeMay\BUS\obj\Debug\BUS.dll
+D:\.netSave\QuanLyThueXeMay\BUS\obj\Debug\BUS.pdb
