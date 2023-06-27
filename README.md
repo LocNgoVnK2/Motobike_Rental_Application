@@ -10,6 +10,7 @@ Configure the database connection in the MotoBikeRental(18_5_2023_19_46).
 ( Detail how to restore in :https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/quickstart-backup-restore-database?view=sql-server-ver16)
 
 3: Config connection string in DAO/DataProvider at line 15.
+
 Back-end: .NET FRAMEWORK
 Database: SQL SERVER 2014
 
